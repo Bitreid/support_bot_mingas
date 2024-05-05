@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 
 
 # Задаём переменные: токен бота, ID группы куда выводить сообщения
-bottoken = '7018357173:AAGtPJ3EG_ohuaB8jrnrsQPd6gJGADqYRTI'
-Group_id = '-4276723400'
+bottoken = ''
+Group_id = ''
 
 """
 #Сохранение логирования действий бота
