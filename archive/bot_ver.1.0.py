@@ -39,7 +39,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     try:
 
-        application = Application.builder().token("7018357173:AAGtPJ3EG_ohuaB8jrnrsQPd6gJGADqYRTI").build()
+        application = Application.builder().token("YOUR_TOKEN").build()
 
         # Регистрируем обработчики
         application.add_handler(CommandHandler("start", start))
